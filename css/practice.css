@@ -1,0 +1,187 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  background: #F8F8F8;
+  font-family: "微软雅黑";
+}
+
+.header {
+  width: 100%;
+  height: 200px;
+  padding: 62px 0;
+  text-align: center;
+  line-height: 1.75em;
+}
+
+#navP1 {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 35px;
+}
+#navP1 .container {
+  width: 70%;
+  margin: 0 15%;
+}
+#navP1 .container .row {
+  margin: 0 2%;
+  text-align: center;
+}
+#navP1 .container .row .navbar-header {
+  text-align: center;
+}
+#navP1 .container .row .navbar-header .navbar-toggle {
+  float: none;
+}
+#navP1 .container .row .collapse ul.navbar-nav {
+  text-align: center;
+}
+#navP1 .container .row .collapse ul.navbar-nav li.active {
+  background: #fff;
+  border-bottom: 2px solid #E67E22;
+}
+#navP1 .container .row .collapse ul.navbar-nav li.active a {
+  color: #E67E22;
+  background: #fff;
+}
+
+section .itron .panel {
+  padding: 1em;
+}
+section .itron .panel-default > .panel-body h1, section .itron .panel-default > .panel-body h5 {
+  text-align: center;
+}
+section .itron .panel-default > .panel-body h5 {
+  margin-bottom: 30px;
+}
+section .itron .panel-default > .panel-body h5 span {
+  color: #E67E22;
+}
+section .itron .panel-default > .panel-body p {
+  margin: 30px 0 50px;
+  font-size: 1.4em;
+}
+section .itron .panel-default > .panel-body button {
+  background: #E67E22;
+  font-size: 0.6em;
+  color: #fff;
+}
+section .itron .panel-default > .panel-footer {
+  background-color: #fff;
+}
+section aside {
+  margin-bottom: 30px;
+  padding: 0.8em 0;
+  font-size: 0.9em;
+  line-height: 2em;
+}
+section aside .panel-default > .panel-heading {
+  background-color: #fff;
+  padding-bottom: 0;
+}
+section aside .panel-default > .panel-heading .panel-title {
+  font-size: 1.8em;
+  line-height: 1.8em;
+  width: 35%;
+  border-bottom: 1px solid #E67E22;
+}
+section aside .panel-body span {
+  color: #E67E22;
+}
+section aside .panel-body button {
+  width: 100%;
+  margin: 0.5em 0;
+  background: #E67E22;
+  color: #fff;
+}
+section aside .panel-body button:hover {
+  background: #666;
+  color: #fff;
+}
+section aside .panel-body a {
+  margin: 0.4em;
+  color: #888;
+}
+section aside .panel-body a:hover {
+  border: none;
+  background: #E67E22;
+  color: #fff;
+}
+
+.footerT {
+  width: 100%;
+  background: #202020;
+  padding: 2% 10%;
+}
+.footerT .panel-default {
+  border: none;
+  width: 90%;
+}
+.footerT .panel-default > .panel-heading {
+  background-color: #202020;
+  padding: 0;
+}
+.footerT .panel-default > .panel-heading .panel-title {
+  font-size: 1.8em;
+  line-height: 1.8em;
+  color: #fff;
+  width: 35%;
+}
+.footerT .panel-default > .panel-heading .panel-title:after {
+  position: absolute;
+  left: 15px;
+  top: 45px;
+  content: "";
+  width: 100px;
+  height: 1px;
+  background: #e67e22;
+}
+.footerT .panel-body {
+  padding: 0;
+  background-color: #202020;
+}
+.footerT .panel-body .list-group-item {
+  background-color: #202020;
+  color: #888;
+  border-top: 1px dashed #2f2f2f;
+  padding: 20px 0;
+}
+.footerT .panel-body .list-group-item dt {
+  font-family: "宋体";
+  font-weight: 200;
+}
+.footerT .panel-body .list-group-item dt:hover {
+  color: #E67E22;
+}
+.footerT .panel-body .list-group-item dd {
+  color: #555;
+  font-size: 0.8em;
+}
+.footerT .panel-body .list-group-item span {
+  margin: 0.5em 1em;
+}
+.footerT .panel-body .list-group-item span:hover {
+  color: #E67E22;
+}
+.footerT .panel-body a {
+  margin: 0.5em;
+  color: #888;
+  background-color: #202020;
+  font-size: 0.7em;
+  border: 1px solid #444;
+}
+.footerT .panel-body a:hover {
+  border: none;
+  background: #E67E22;
+  color: #fff;
+}
+
+footer {
+  background: #111;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.7em;
+  line-height: 150px;
+}
